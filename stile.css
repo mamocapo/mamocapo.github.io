@@ -1,0 +1,91 @@
+/* reset: togli tutto quello che il browser aggiunge di suo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* titolo principale della homepage */
+h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-transform: lowercase;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+/* titolo del singolo post */
+article h1 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-bottom: none;
+  margin-bottom: 4px;
+}
+
+/* data sotto il titolo */
+.data {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+/* lista dei post in homepage */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+ul li a {
+  color: #000;
+  text-decoration: underline;
+}
+
+ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* link "← indietro" */
+nav {
+  margin-bottom: 40px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-bottom: 1px solid #000;
+}
+
+nav a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* paragrafi del testo */
+p {
+  margin-bottom: 16px;
+}
+
+/* foto nel post */
+img {
+  display: block;
+  max-width: 100%;
+  margin: 24px 0;
+  border: 1px solid #000;
+}
